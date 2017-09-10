@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
 
-    <item android:title="添加"
-        android:id="@+id/menu_add_friend" />
-    <item android:title="扫一扫"
-        android:id="@+id/menu_scan" />
-    <item android:title="关于"
-        android:id="@+id/menu_about" />
+    <item
+        android:id="@+id/menu_add_friend"
+        android:icon="@mipmap/add_friend_pressed"
+        android:title="添加"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_scan"
+        android:icon="@mipmap/scan_pressed"
+        android:title="扫一扫"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_about"
+        android:icon="@mipmap/about"
+        android:title="关于"
+        app:showAsAction="never" />
 </menu>

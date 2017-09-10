@@ -3,8 +3,11 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
     <color name="btn_normal">#00ACFF</color>
     <color name="btn_pressed">#00A1DB</color>
+    <color name="inActive">#ABADBB</color>
 
-    <color name="white">#ffffff</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
 </resources>
